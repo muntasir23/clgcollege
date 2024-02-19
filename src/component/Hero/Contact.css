@@ -1,0 +1,75 @@
+.contact-main {
+  background: linear-gradient(180deg, #c7d2fe 25.43%, #eef2ff 76.06%);
+  height: 120vh;
+  width: 100%;
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.my-class {
+  color: #1c1c1c;
+}
+
+.my-class-two {
+  color: #374151;
+}
+
+.contact-map {
+  height: 400px;
+  width: 70%;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 10000px;
+  border: 3px solid #6366f1;
+  position: relative;
+}
+.map {
+  height: 100%;
+  width: 100%;
+  border-radius: 23px;
+  padding: 5px;
+}
+
+.seminar-man-info{
+    /* width: 70px;
+    height: 100px; */
+    background: #fefefe;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 23px;
+    border: 2px solid lightgray;
+    padding: 15px;
+}
+
+.seminar-man-info h1{
+    color: #1c1c1c;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.seminar-man-info label{
+    color: #374151;
+}
+
+.seminar-man-info input{
+    background: #f3f4f6;
+    border: 2px solid lightgray;
+    outline: none;
+    padding: 5px;
+}
+
+.seminar-email{
+    color: #6366f1;
+}
+
+@media (max-width:980px) {
+    .contact-map {
+        height: 400px;
+        width: 90%;
+      }
+}

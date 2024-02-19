@@ -1,0 +1,221 @@
+.name-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.name-section-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.logoutbtn {
+  width: 320px;
+  height: 40px;
+  background: #fecdd3;
+  color: #9f1239;
+  font-weight: 700;
+}
+
+.header-profile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.name-holder {
+  padding: 10px;
+}
+
+.name-holder h1 {
+  font-size: 30px;
+}
+.name-holder h1 span {
+  font-size: 30px;
+  color: #6366f1;
+}
+.name-holder p {
+  font-size: 15px;
+  color: #4b5563;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 5px;
+}
+
+/* =====boxes=== */
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 240px;
+  height: 100px;
+  background: #ebeef1;
+  color: #4b5563;
+  padding: 0px 10px;
+  border-radius: 10px;
+  box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    inset -10px -10px 10px 1px rgba(255, 255, 255, 0.75);
+}
+
+.rounded-boxes {
+  height: 30px;
+  width: 30px;
+  background: #d1fae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #064e3b;
+}
+
+@media (max-width: 980px) {
+  .header-profile {
+    display: flex;
+  }
+  .boxes {
+    width: 98%;
+  }
+}
+
+/* ========== */
+
+.facebookinput {
+  border-bottom: 1px solid #a6a6a6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.facebookinput :last-child {
+  color: #047857;
+}
+
+.facebookinput h1 {
+  font-size: 20px;
+}
+
+/* ========================= 
+ */
+
+.form-hodler {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.from h1 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 25px;
+}
+
+.all-input {
+  margin-top: 20px;
+}
+
+.input-type input {
+  width: 320px;
+  height: 50px;
+  background: #e4e8ee;
+  outline: none;
+  margin-top: 10px;
+  box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    inset -10px -10px 10px 1px rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.input-type textarea {
+  width: 320px;
+  height: 100px;
+  background: #e4e8ee;
+  outline: none;
+  margin-top: 10px;
+  box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    inset -10px -10px 10px 1px rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.profileSelect {
+  width: 320px;
+  height: 50px;
+  background: #e4e8ee;
+  outline: none;
+  margin-top: 15px;
+  box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    inset -10px -10px 10px 1px rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.progress {
+  width: 320px;
+  background: #ffffff;
+  margin-top: 20px;
+  color: #e1e1e1;
+}
+
+.progress-bar {
+  background: #6366f1;
+  height: 8px;
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+
+.from button {
+  width: 320px;
+  height: 50px;
+  background: #6366f1;
+  color: #e1e1e1;
+  margin-top: 20px;
+  font-weight: 600;
+}
+#file {
+  display: none;
+}
+
+.file label {
+  height: 120px;
+  width: 320px;
+  border-radius: 6px;
+  border: 1px dashed #a6a6a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  color: #000000;
+  margin-top: 10px;
+  background: #e4e8ee;
+  box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    inset -10px -10px 10px 1px rgba(255, 255, 255, 0.75);
+}
+
+.user-blog {
+  margin-top: 50px;
+}
+
+.dashboard-h1{
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #6366f1;
+}

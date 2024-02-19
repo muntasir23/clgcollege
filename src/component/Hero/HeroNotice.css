@@ -1,0 +1,139 @@
+.hero-notice-holder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.hero-notice-div {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.hero-notice-div h1 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #4f46e5;
+}
+
+.hero-notive-banner {
+  height: 200px;
+  width: 350px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.hero-notive-banner img {
+  width: 350px;
+  border-radius: 2px;
+}
+
+.hero-notice-details {
+  background: #d1d5db;
+  margin: 10px 0px;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.hero-notice-details h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #1c1c1c;
+}
+.hero-notice-details h4 {
+  font-size: 16px;
+  margin-bottom: 2px;
+  color: #374151;
+}
+.hero-notice-details p {
+  font-size: 13px;
+  margin-bottom: 2px;
+  color: #374151;
+}
+
+/* ==============  */
+
+.design-demos-banner {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 35px;
+}
+
+.design-demos-banner img {
+  height: 50px;
+  margin: 20px 0px;
+}
+
+.design-demos {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 3px;
+}
+.design-demos h1 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #4f46e5;
+}
+
+.design-demos-inputs input {
+  width: 350px;
+  height: 40px;
+  border: 1px solid lightgray;
+  outline: none;
+  padding: 10px;
+}
+
+.design-demos-inputs p {
+  margin-bottom: 3px;
+  color: #1c1c1c;
+  font-weight: 400;
+}
+
+.design-demos-inputs button {
+  width: 350px;
+  margin-top: 20px;
+  padding: 10px;
+  background: #4f46e5;
+  color: #d1d5db;
+  font-weight: 700;
+}
+
+@media (max-width: 980px) {
+  .hero-notive-banner {
+    width: 100%;
+  }
+
+  .hero-notive-banner img {
+    width: 100%;
+  }
+  .design-demos-banner {
+    width: 100%;
+  }
+  .design-demos-inputs input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 25px;
+  }
+  .design-demos {
+    width: 100%;
+  }
+  .design-demos-inputs button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: #4f46e5;
+    color: #d1d5db;
+    font-weight: 700;
+  }
+}

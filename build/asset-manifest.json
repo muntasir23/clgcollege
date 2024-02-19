@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.47b81dc9.css",
+    "main.js": "/static/js/main.741ea028.js",
+    "static/js/787.e1338f69.chunk.js": "/static/js/787.e1338f69.chunk.js",
+    "static/media/IMG_20230225_100520_643.jpg": "/static/media/IMG_20230225_100520_643.145f7de38a06cd844ae2.jpg",
+    "static/media/noticebanner.jpg": "/static/media/noticebanner.f0d051ebb67b1f1f465f.jpg",
+    "static/media/canvatwo.jpg": "/static/media/canvatwo.a848a5493003a62a9fb5.jpg",
+    "static/media/canvaone.jpg": "/static/media/canvaone.20fb1d7e6e48687f13a4.jpg",
+    "static/media/canvathree.jpg": "/static/media/canvathree.cc26f904521eb8819770.jpg",
+    "static/media/collegelogo.png": "/static/media/collegelogo.457314d8dfb825c5a685.png",
+    "static/media/faisalsir.jpg": "/static/media/faisalsir.c9e594805eab40596ea8.jpg",
+    "static/media/lailaMam.jpg": "/static/media/lailaMam.fefa0b3b697d04eba948.jpg",
+    "static/media/new_logo.svg": "/static/media/new_logo.838dc08a34842b873100cff05da4ddca.svg",
+    "static/media/mam.jpg": "/static/media/mam.d3327b9b1015f347ce7e.jpg",
+    "index.html": "/index.html",
+    "main.47b81dc9.css.map": "/static/css/main.47b81dc9.css.map",
+    "main.741ea028.js.map": "/static/js/main.741ea028.js.map",
+    "787.e1338f69.chunk.js.map": "/static/js/787.e1338f69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47b81dc9.css",
+    "static/js/main.741ea028.js"
+  ]
+}
